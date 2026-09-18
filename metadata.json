@@ -1,0 +1,6 @@
+{
+  "name": "Bagan Voice Agent - Develop by Victor Geek",
+  "description": "ပုဂံခေတ် မြန်မာမှု အနုပညာပုံစံဖြင့် ဖန်တီးထားသော မြန်မာစကားပြော LiveKit AI Voice Agent နှင့် ဖုန်းထိန်းချုပ်မှုစနစ်",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

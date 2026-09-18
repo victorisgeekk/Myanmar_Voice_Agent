@@ -5,7 +5,7 @@ Victor Geek အတွက် **Bagan Voice Agent** ကို Android `.apk` ဖ�
 ---
 
 ### ၁။ ထည့်သွင်းပေးထားသော ဖိုင်များ
-1. **`.github/workflows/build-android-apk.yml`** - GitHub Actions Workflow စနစ် (Push တင်လိုက်သည်နှင့် Ubuntu Cloud Runner ပေါ်တွင် JDK 17, Node.js 20, Vite Build နှင့် Android Gradle ဖြင့် `app-debug.apk` ကို အလိုအလျောက် ထုတ်လုပ်ပေးပါမည်)။
+1. **`.github/workflows/build-android-apk.yml`** - GitHub Actions Workflow စနစ် (Push တင်လိုက်သည်နှင့် Ubuntu Cloud Runner ပေါ်တွင် JDK 21, Node.js 22, Vite Build နှင့် Android Gradle 8.14 / AGP 8.13 ဖြင့် `app-debug.apk` ကို အလိုအလျောက် ထုတ်လုပ်ပေးပါမည်)။
 2. **`capacitor.config.json`** - Android App ID (`com.victorgeek.baganvoice`) နှင့် Web Asset လမ်းကြောင်းများ။
 3. **`android/` Project Directory** - Gradle Wrapper (`gradlew`), `AndroidManifest.xml` (မိုက်ခရိုဖုန်း၊ အင်တာနက်၊ ဖုန်းတုန်ခါမှု၊ ဓာတ်မီး စသည့် လိုအပ်သော Permission များ ပါဝင်ပြီးသားဖြစ်ပါသည်)။
 
